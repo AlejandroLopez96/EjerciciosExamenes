@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1 style="text-align: center">CONFIGURA TU COCINA</h1>
+        <div style="align-content: center">
+            <form action="final.jsp" method="post">
+                <h3>Elige el acabado de la cocina</h3>
+                <select name="acabado">
+                    <option value="none" disabled selected>Acabado...</option>
+                    <option value="madera">Madera</option>
+                    <option value="naranja">Naranja</option>
+                    <option value="verde">Verde Lima</option>
+                </select>
+                <h3>Elige el tipo de asa</h3>
+                <select name="asa">
+                    <option value="none" disabled selected>Tipo asa...</option>
+                    <option value="larga">Larga</option>
+                    <option value="corta">Corta</option>
+                </select>
+                <h3>Elige comprar electrodomésticos o no</h3>
+                <select name="electro">
+                    <option value="none" disabled selected>Electrodoméstico...</option>
+                    <option value="comprar">Comprar</option>
+                    <option value="nocomprar">No comprar</option>
+                </select>
+                <br>
+                <br>
+                <input type="submit" name="ok" value="Ver resultado">
+                <br>
+                <br>
+            </form>
+        </div>
+    </body>
+</html>

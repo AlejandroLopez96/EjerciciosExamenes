@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<!--
+Moisés Rodríguez Naranjo
+02/02/2016
+-->
+<html>
+    <head>
+        <title>Piedra Papel Y Tijera</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+              <style>
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: greenyellow;
+}
+
+
+
+h3 {
+  text-align: center;
+  color: white;
+  text-shadow: #242424 2px 2px 1px;
+}
+
+
+
+form {
+  text-align: center;
+}
+
+table {
+  background-color: #abcdef;
+  margin: auto;
+  width: 280px;
+  height: 100px;
+  box-shadow: #242424 4px 4px 4px;
+  text-align: right;
+  border: 0px;
+  border-collapse: collapse;
+}
+
+
+td {
+  padding: 10px;
+}
+
+
+</style>
+    </head>
+    <body>
+        <div>
+            <table>
+                <tr>
+                    <td>
+                        <h3>
+                            Elige piedra, papel o tijera
+                        </h3>
+                    </td>
+                </tr>
+                <tr>
+                    
+                    <td>
+                        <form method="post" action="juego.jsp">
+                            <input name="apostar" type="radio" value="1" checked> Piedra <br>
+                            <input name="apostar" type="radio" value="2"> Papel <br>
+                            <input name="apostar" type="radio" value="3"> Tijera <br>
+                            <input type="submit" value="Aceptar">
+                        </form>
+                    </td>
+                </tr>
+            </table>
+            
+            
+        </div>
+    </body>
+</html>
